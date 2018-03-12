@@ -244,10 +244,10 @@ body,html{
 }
  .btn-primary:active,.btn-primary:focus,.btn-primary:hover{
      color:#fff;
-     background-color:#ee4b28!important
+     background-color:#8F744A!important
 }
  .btn-primary:active,.btn-primary:focus{
-     box-shadow:0 0 0 .2rem rgba(240,95,64,.5)!important
+     box-shadow:0 0 0 .2rem #6C5636
 }
  .title {
      width:50rem;
@@ -391,5 +391,16 @@ body,html{
     margin-top: 4rem;
     margin-bottom: 0rem
   }
+
+  
+
+@media (min-width: 576px) {
+.col-sm-6  {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
 
 
